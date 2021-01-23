@@ -68,6 +68,10 @@
   background-image: url("https://www.thetimes.co.uk/d/img/icons/icon_1_5x-a13ee0bf9a.png");
 }
 
+#br-timeline section#timeline article div.panel .panel-body h5.cnn::before {
+  background-image: url("http://cdn.cnn.com/cnn/.e/img/3.0/global/misc/apple-touch-icon.png");
+}
+
 #br-timeline section#timeline article div.badge {
   font-size: 1rem;
   white-space: normal;
@@ -78,5 +82,12 @@
 
 body {
   font-size: 16px;
+}
+
+h1 {
+  background-color: white;
+  padding: 2rem;
+  border-bottom: #030303 solid 2px;
+  margin-bottom: 2rem;
 }
 /*# sourceMappingURL=index.css.map */

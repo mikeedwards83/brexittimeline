@@ -1,14 +1,31 @@
+
+
 //Json Object
 var sources = {
     theguardian: "The Guardian",
     channel4: "Channel 4",
     independent: "Independent",
     bbcnews: "BBC News",
-    thetimes:"The Times"
+    thetimes:"The Times",
+    cnn: "CNN"
 }
 
 var stories = [
 
+    {
+        date: '2021-01-23',
+        image: 'https://cdn.cnn.com/cnnnext/dam/assets/210122164127-brexit-empty-shelves-exlarge-169.jpg',
+        title: "Rotting fish, lost business and piles of red tape. The reality of Brexit hits Britain",
+        url: 'https://edition.cnn.com/2021/01/23/business/brexit-business-intl-gbr/index.html',
+        source: 'cnn'
+    },
+    {
+        date: '2021-01-23',
+        image: 'https://i.guim.co.uk/img/media/3037636935d8c30560705acf4e9b10e9cfbc8b2d/0_599_3670_2202/master/3670.jpg?width=620&quality=85&auto=format&fit=max&s=ea34863e35434554700824fad4118842',
+        title: "Cheshire cheesemaker says business left with £250,000 'Brexit hole'",
+        url: 'https://www.theguardian.com/politics/2021/jan/23/cheshire-cheesemaker-says-business-left-with-250000-brexit-hole',
+        source: 'theguardian'
+    },
     {
         date: '2021-01-22',
         image: 'https://www.thetimes.co.uk/imageserver/image/%2Fmethode%2Ftimes%2Fprod%2Fweb%2Fbin%2Fd3c4cf86-5c18-11eb-86f4-4fa0aa4e7fd3.jpg?crop=3886%2C2186%2C47%2C197&resize=1180',
@@ -101,8 +118,8 @@ $(document).ready(function () {
 
         
         if (story.image) {
-            let img = $("<img  />");
-            img.attr("src", story.image)
+            let img = $("<img class='lazy'  />");
+            img.attr("data-src", story.image)
             container.append(img);
         }
         else if(story.embed){
@@ -138,4 +155,9 @@ $(document).ready(function () {
 
     $("#br-timeline").albeTimeline(abDatas);
 
+});
+
+
+$(function() {
+    $('.lazy').lazy();
 });
