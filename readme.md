@@ -9,3 +9,19 @@ https://github.com/Albejr/jquery-albe-timeline
 These are github pages to use as reference for creating github pages.
 
 https://github.com/github/government.github.com
+
+
+# How To Run
+
+bundle exec jekyll serve
+
+
+
+
+
+
+
+
+
+
+

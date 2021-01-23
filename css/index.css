@@ -1,0 +1,82 @@
+#br-timeline section#timeline article:first-of-type {
+  margin-top: 0px;
+}
+
+#br-timeline section#timeline article div.panel .panel-body iframe {
+  margin: auto;
+  display: block;
+}
+
+#br-timeline section#timeline article div.panel .panel-body img {
+  width: 100%;
+  margin: 0px;
+}
+
+#br-timeline section#timeline article div.panel .panel-body a {
+  color: #030303;
+}
+
+#br-timeline section#timeline article div.panel .panel-body a *:visited {
+  color: #030303;
+}
+
+#br-timeline section#timeline article div.panel .panel-body a:hover {
+  color: rgba(3, 3, 3, 0.6);
+}
+
+#br-timeline section#timeline article div.panel .panel-body h4 {
+  margin-top: 0.5rem;
+}
+
+#br-timeline section#timeline article div.panel .panel-body h5 {
+  line-height: 1.25rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#br-timeline section#timeline article div.panel .panel-body h5::before {
+  width: 22px;
+  height: 22px;
+  display: inline-block;
+  content: "";
+  background-repeat: no-repeat;
+  background-size: 22px 22px;
+  margin-right: 10px;
+}
+
+#br-timeline section#timeline article div.panel .panel-body h5.channel4::before {
+  background-image: url("https://www.channel4.com/news/wp-content/themes/channel-4-news/img/icon.png");
+}
+
+#br-timeline section#timeline article div.panel .panel-body h5.theguardian::before {
+  background-image: url("https://assets.guim.co.uk/images/favicons/c58143bd2a5b5426b6256cd90ba6eb47/120x120.png");
+}
+
+#br-timeline section#timeline article div.panel .panel-body h5.independent::before {
+  background-image: url("https://www.independent.co.uk/img/shortcut-icons/icon-96x96.png");
+}
+
+#br-timeline section#timeline article div.panel .panel-body h5.bbcnews::before {
+  background-image: url("https://nav.files.bbci.co.uk/orbit/b3428ed36e7e195dbf298117ef155a8f/img/blq-orbit-blocks_grey.svg");
+}
+
+#br-timeline section#timeline article div.panel .panel-body h5.thetimes::before {
+  background-image: url("https://www.thetimes.co.uk/d/img/icons/icon_1_5x-a13ee0bf9a.png");
+}
+
+#br-timeline section#timeline article div.badge {
+  font-size: 1rem;
+  white-space: normal;
+  width: 50px;
+  height: 50px;
+  margin-left: -25px;
+}
+
+body {
+  font-size: 16px;
+}
+/*# sourceMappingURL=index.css.map */

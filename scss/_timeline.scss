@@ -1,0 +1,92 @@
+#br-timeline {
+    section#timeline {
+        article {
+
+
+            &:first-of-type{
+                margin-top:0px ;
+            } 
+
+            div.panel {
+                .panel-body {
+                    iframe {
+                        margin: auto;
+                        display: block;
+                    }
+                    img {
+                        width: 100%;
+                        margin: 0px;
+                    }
+
+                    a {
+                        color: rgb(3, 3, 3);
+
+                        *:visited {
+                            color: rgb(3, 3, 3);
+                        }
+                        &:hover {
+                            color: rgba(3, 3, 3, 0.6);
+                        }
+                    }
+
+                    h4 {
+                        margin-top: 0.5rem;
+                    }
+                    h5 {
+                        line-height: 1.25rem;
+                        display: flex;
+                        align-items: center;
+
+                        &::before {
+                            width: 22px;
+                            height: 22px;
+                            display: inline-block;
+                            content: "";
+                            background-repeat: no-repeat;
+                            background-size: 22px 22px;
+                            margin-right: 10px;
+                        }
+
+                        &.channel4 {
+                            &::before {
+                                background-image: url("https://www.channel4.com/news/wp-content/themes/channel-4-news/img/icon.png");
+                            }
+                        }
+
+                        &.theguardian {
+                            &::before {
+                                background-image: url("https://assets.guim.co.uk/images/favicons/c58143bd2a5b5426b6256cd90ba6eb47/120x120.png");
+                            }
+                        }
+                        &.independent {
+                            &::before {
+                                background-image: url("https://www.independent.co.uk/img/shortcut-icons/icon-96x96.png");
+                            }
+                        }
+                        &.bbcnews {
+                            &::before {
+                                background-image: url("https://nav.files.bbci.co.uk/orbit/b3428ed36e7e195dbf298117ef155a8f/img/blq-orbit-blocks_grey.svg");
+                            }
+                        }
+                        &.thetimes {
+                            &::before {
+                                background-image: url("https://www.thetimes.co.uk/d/img/icons/icon_1_5x-a13ee0bf9a.png");
+                            }
+                        }
+                        
+                    }
+                   
+
+                }
+            }
+            div.badge {
+
+                font-size: 1rem;
+                white-space: normal;
+                width:50px;
+                height: 50px;
+                margin-left: -25px;
+            }
+        }
+    }
+}
