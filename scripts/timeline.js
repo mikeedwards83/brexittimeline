@@ -10,11 +10,14 @@ var sources = {
     cnn: "CNN"
 }
 
+
+
 var stories = [
 
+  
     {
         date: '2021-01-25',
-        image: 'https://i.guim.co.uk/img/media/e53cf59263f8e0499ac8c014c69aa5544d2456b2/0_172_6720_4031/master/6720.jpg?width=1020&quality=85&auto=format&fit=max&s=2c2a33bfcfcbe73d1494efa5749eb3a5',
+        image: 'https://i.guim.co.uk/img/media/938c49c3ec23196a8fc63bf273e6a37c9ad2088d/0_234_3500_2100/master/3500.jpg?width=620&quality=85&auto=format&fit=max&s=0434f9436f5ee4396a79df6266985c26',
         title: "Mastercard to raise fees by at least 400% for EU firms selling to UK customers",
         url: 'https://www.theguardian.com/money/2021/jan/25/mastercard-to-raise-fees-to-eu-firms-by-500-percent-for-online-sales-to-uk-shoppers?CMP=Share_AndroidApp_Other',
         source: 'theguardian'
