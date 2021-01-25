@@ -13,6 +13,20 @@ var sources = {
 var stories = [
 
     {
+        date: '2021-01-25',
+        image: 'https://i.guim.co.uk/img/media/e53cf59263f8e0499ac8c014c69aa5544d2456b2/0_172_6720_4031/master/6720.jpg?width=1020&quality=85&auto=format&fit=max&s=2c2a33bfcfcbe73d1494efa5749eb3a5',
+        title: "Mastercard to raise fees by at least 400% for EU firms selling to UK customers",
+        url: 'https://www.theguardian.com/money/2021/jan/25/mastercard-to-raise-fees-to-eu-firms-by-500-percent-for-online-sales-to-uk-shoppers?CMP=Share_AndroidApp_Other',
+        source: 'theguardian'
+    },
+    {
+        date: '2021-01-23',
+        image: 'https://i.guim.co.uk/img/media/e53cf59263f8e0499ac8c014c69aa5544d2456b2/0_172_6720_4031/master/6720.jpg?width=1020&quality=85&auto=format&fit=max&s=2c2a33bfcfcbe73d1494efa5749eb3a5',
+        title: "'A Brexit nightmare': the British businesses being pushed to breaking point",
+        url: 'https://www.theguardian.com/politics/2021/jan/23/a-brexit-nightmare-the-british-businesses-being-pushed-to-breaking-point?CMP=Share_AndroidApp_Other',
+        source: 'theguardian'
+    },
+    {
         date: '2021-01-23',
         image: 'https://cdn.cnn.com/cnnnext/dam/assets/210122164127-brexit-empty-shelves-exlarge-169.jpg',
         title: "Rotting fish, lost business and piles of red tape. The reality of Brexit hits Britain",
