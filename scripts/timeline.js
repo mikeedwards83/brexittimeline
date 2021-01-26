@@ -110,7 +110,7 @@ var stories = [
     },
     {
         date: '2021-01-14',
-        embed: 'https://www.youtube.com/watch?v=eiKmqY_RNME',
+        embed: '<iframe width="400" height="225" src="https://www.youtube.com/embed/eiKmqY_RNME" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>',
         title: "Jacob Rees-Mogg says British fish are 'happier' because of Brexit deal",
         url: 'https://www.youtube.com/watch?v=eiKmqY_RNME',
         source: 'theguardian'
