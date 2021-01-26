@@ -108,6 +108,13 @@ var stories = [
         url: 'https://westcountrybylines.co.uk/quadruple-cheese-brexit-whammy/',
         source: 'westcountrybylines'
     },
+    {
+        date: '2021-01-14',
+        embed: 'https://www.youtube.com/watch?v=eiKmqY_RNME',
+        title: "Jacob Rees-Mogg says British fish are 'happier' because of Brexit deal",
+        url: 'https://www.youtube.com/watch?v=eiKmqY_RNME',
+        source: 'theguardian'
+    },
 
 ]
 
