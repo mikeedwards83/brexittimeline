@@ -7,19 +7,56 @@ var sources = {
     independent: "Independent",
     bbcnews: "BBC News",
     thetimes:"The Times",
-    cnn: "CNN"
-}
+    cnn: "CNN",
+    nyt:"New York Times",
+    irishtimes:"The Irish Times"
+}   
+
 
 
 
 var stories = [
 
-  
+
+    
+    {
+        date: '2021-01-26',
+        image: 'https://static01.nyt.com/images/2021/01/24/business/00brexit-auto-01/merlin_171032850_6a73de8e-5211-4afe-8739-545ea4ae4d61-superJumbo.jpg?quality=90&auto=webp',
+        title: "British Auto Industry Risks Slow Decline After Brexit",
+        url: 'https://www.nytimes.com/2021/01/26/business/british-auto-industry-brexit.html#click=https://t.co/4lCMPPQXlt',
+        source: 'nyt'
+    },
+       
+    {
+        date: '2021-01-26',
+        image: 'https://ichef.bbci.co.uk/news/590/cpsprodpb/902A/production/_116660963_img_0281.jpg',
+        title: "Brexit parcel price shock: 'I had to pay £30 for a gift'",
+        url: 'https://www.bbc.co.uk/news/amp/business-55752541',
+        source: 'bbcnews'
+    },
+
     {
         date: '2021-01-25',
         image: 'https://i.guim.co.uk/img/media/938c49c3ec23196a8fc63bf273e6a37c9ad2088d/0_234_3500_2100/master/3500.jpg?width=620&quality=85&auto=format&fit=max&s=0434f9436f5ee4396a79df6266985c26',
         title: "Mastercard to raise fees by at least 400% for EU firms selling to UK customers",
         url: 'https://www.theguardian.com/money/2021/jan/25/mastercard-to-raise-fees-to-eu-firms-by-500-percent-for-online-sales-to-uk-shoppers?CMP=Share_AndroidApp_Other',
+        source: 'theguardian'
+    },
+
+    {
+        date: '2021-01-25',
+        image: 'https://www.irishtimes.com/polopoly_fs/1.4467227.1611607175!/image/image.jpg_gen/derivatives/landscape_620/image.jpg',
+        title: "Credit analysts say UK economy will shrink as Brexit deal ‘lacks substance’ ",
+        url: 'https://www.irishtimes.com/business/economy/credit-analysts-say-uk-economy-will-shrink-as-brexit-deal-lacks-substance-1.4467228?mode=amp',
+        source: 'irishtimes'
+    },
+
+
+    {
+        date: '2021-01-23',
+        image: 'https://i.guim.co.uk/img/media/c2db22861102eac59c09b5f0bda2fd6e9715e818/0_314_4792_2875/master/4792.jpg?width=620&quality=85&auto=format&fit=max&s=c844b936e736e5030ac3ded62fa273b3',
+        title: "Move to EU to avoid Brexit costs, firms told",
+        url: 'https://www.theguardian.com/politics/2021/jan/23/brexit-hit-firms-advised-government-officials-set-up-shop-in-eu',
         source: 'theguardian'
     },
     {
