@@ -72,6 +72,14 @@
   background-image: url("http://cdn.cnn.com/cnn/.e/img/3.0/global/misc/apple-touch-icon.png");
 }
 
+#br-timeline section#timeline article div.panel .panel-body h5.nyt::before {
+  background-image: url("https://www.nytimes.com/vi-assets/static-assets/apple-touch-icon-28865b72953380a40aa43318108876cb.png");
+}
+
+#br-timeline section#timeline article div.panel .panel-body h5.irishtimes::before {
+  background-image: url("https://res-2.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_170,w_170,f_auto,b_white,q_auto:eco/v1397190002/ae6dad8239153edf41f53fa2f86ece3e.png");
+}
+
 #br-timeline section#timeline article div.badge {
   font-size: 1rem;
   white-space: normal;
